@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+a {
+  text-decoration: none; 
+  color: #1b6eb0;
+}
+
+a:hover, a:focus {
+  color: #5c758a;
+}
+
+.film-releases-container {
+  width: 100%;
+  max-width: 500px;
+  background: #F1F1F1;
+  border: 1px solid #000;
+  padding: 1em;
+  margin: 1em auto;
+}
+
+.film-releases-container li {
+  padding: .5em 0;
+}
+
+button {
+  padding: 1em;
+  background: #A0C3DF;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+button:hover, button:focus {
+  background: #5c758a;
+  color: #FFF;
+}
